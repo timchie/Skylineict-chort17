@@ -1,0 +1,222 @@
+
+body{
+    background-color: rgb(212, 212, 212); 
+   font-family: 'Times New Roman', Times, serif;
+}
+
+/* my manu-bar starts here  */
+
+.see{
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border-radius: 5px; 
+    align-items: center;
+}
+
+.main-bar{
+width: 60%;
+}
+
+.main-bar1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px; 
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 0%; 
+    background-color:white; 
+  
+    /* width: 60%; */
+}
+
+table{
+    
+    /* width: 61.5%; */
+    margin-top: 5px;
+   
+   
+     
+    /* height: 100vh;
+    padding: 10px 10px; */
+
+}
+.sqaure1{
+height: 30px;
+  width: 20px;
+  background-color:  rgb(206, 207, 207);
+  border-color: whitesmoke;
+  margin: auto;
+}
+.sqaure{
+  height: 30px;
+  width: 20px;
+  background-color: rgb(255, 255, 255);
+  border-color: whitesmoke;
+  margin: auto;
+}
+
+table, td, th{
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: white; 
+   
+   
+
+}
+th, td{
+    padding: 18.5px;
+
+}
+th{
+    background-color: rgb(206, 207, 207);
+    color: rgb(0, 0, 0);
+    width:150px;
+
+
+}
+td{
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+td{
+    border-bottom: 2px solid whitesmoke;
+}
+
+button{
+    border: 1px solid rgb(118, 117, 117);
+    border-radius: 10px;
+
+}
+td:hover {
+    background-color: #8e8e8e;
+}
+
+.active {
+    background-color: rgb(113, 158, 113);
+    font-display: green;
+    border-color: rgb(113, 158, 113);
+}
+
+.New {
+    background-color: orange;
+    font-display: orange;
+    border-color: orange;
+}
+
+
+/* here is my main title */
+
+.container{
+    display: flex;
+    gap: 12px;
+    font-size: 16px;
+}
+
+.main-body{
+  width: 40%;  
+}
+
+.main-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px; 
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 0%; 
+    background-color:white;  
+}
+
+.v{
+    border: 1px solid black;
+    padding: 5px 10px;
+    margin: 10px 5px;
+    border-radius: 5px; 
+    align-items: center;
+}
+
+.main-1{
+    font-weight: bolder;
+}
+/* main-title ends here */
+
+/* my flex starts here */
+
+.image-flex{
+    margin-top: 6px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 3px 10px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding-top: 20px;
+    cursor: pointer;
+    /* height: 100vh; */
+}
+
+.letters, h1{
+    font-size: 15px;
+}
+
+.letters, p{
+    font-size: 15px;
+}
+
+/* here is my image */
+
+.img-1, img{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.image-flex1{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 0px 10px;
+    align-items: center;
+    margin-left: auto;  
+}
+
+.image-flex2{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(255, 229, 181);
+    border-radius: 10px;
+    padding: 0px 10px;
+    align-items: center;
+    margin-top: 5px;  
+}
+
+.image-flex3{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 0px 10px;
+    align-items: center;
+    margin-top: 5px;   
+}
+
+.image-flex4{
+    display: flex;
+    /* justify-content: space-between; */
+    background-color: rgb(255, 229, 181);
+    border-radius: 10px;
+    padding: 0px 10px;
+    align-items: center;
+    margin-top: 5px;  
+}
+
+.fa-solid{
+    font-size: 13px;
+}
+
+.letters{
+    flex: 1;
+    padding-left: 30px; 
+}
