@@ -5,6 +5,9 @@ body{
     
     }
     
+
+    /* container starts here */
+    
     .container{
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'
         , Arial, sans-serif;
@@ -20,6 +23,7 @@ body{
         gap:20px ;
     }
     
+    /* error code starts here */
     
     .errorcode{
     
@@ -30,6 +34,8 @@ body{
         margin-bottom: -10px;
     }
     
+    /* error messages starts here */
+
     .errormessage1{
         font-size: 30px;
         color: rgb(44, 12, 75);
@@ -37,10 +43,6 @@ body{
         text-transform: capitalize;
      
     }
-    
-    
-    
-    
     
     
     
@@ -54,7 +56,7 @@ body{
     
     
         
-    
+    /* button starts here */
     
     .btn{ 
         color: azure;
