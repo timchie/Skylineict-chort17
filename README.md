@@ -1,5 +1,9 @@
 # Skylineict-chort17
 
+This is a dase web bashboard
+this job is for chiefvee
+
+
 
 This is a form webpage that collects password information. 
 Just Html and Css were used to implement the design
@@ -15,4 +19,5 @@ in the body has the students cards, projects, assignments,
 scores, cohorts and payment details.
 still in the lies the courses and the upcoming courses.
 this dashboard is very responsive and many more
+
 
