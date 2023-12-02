@@ -1,37 +1,47 @@
+https://fontawesome.com/icons/thumbs-down?f=classic&s=regular
+
 body{
     background-color: black;
+
     
     
-    
-    }
+}
     
 
     /* container starts here */
     
-    .container{
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'
-        , Arial, sans-serif;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        height: 300px;
-        width: 100%;
-        margin: auto;
-        margin-top: 300px;
-        background-color: #ffff;
-        text-align: center;
-        flex-direction: column;
-        gap:20px ;
-    }
-    
+   
+        .container{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'
+            , Arial, sans-serif;
+            padding-top:20px;
+            padding-bottom:20px;
+            width: 85%;
+             margin: auto;
+             margin-top: 80px;
+             margin-bottom: 80px;
+             background-color: rgb(249, 249, 255);
+            text-align: center;
+            height: 600px ;
+            line-height: 60px;
+           
+        }
+        
+        
+       
+       
+        
     /* error code starts here */
     
     .errorcode{
     
-        font-size: 100px;
+        font-size: 150px;
         font-weight: bolder;
         color: rgb(44, 12, 75);
-        padding-top: 40px;
-        margin-bottom: -10px;
+        padding-top: 80px;
+        padding-bottom: 20px;
+        margin-top: 100px;
+      
     }
     
     /* error messages starts here */
@@ -39,17 +49,17 @@ body{
     .errormessage1{
         font-size: 30px;
         color: rgb(44, 12, 75);
-        margin-bottom: 8px;
         text-transform: capitalize;
-     
+        margin-top: 10px;
+       
     }
-    
     
     
     .errormessage2{
        
         color: rgb(44, 12, 75);
-        margin-bottom: 8px;
+        margin-top: -30px;
+      
     }
     
     
@@ -61,12 +71,18 @@ body{
     .btn{ 
         color: azure;
         background-color: rgb(87, 85, 180);
-        border-radius: 10px;
-        padding: 10px 10px;
-        width: 13%;
+        border-radius:6px;
+        /* width: 8%; */
         margin: auto;
         color: beige;
         margin-bottom: 50px;
-        } 
+        width: 9%;
+        margin:auto;
+        max-height:30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        line-height: 10px;
+      
+    }       
     
     
