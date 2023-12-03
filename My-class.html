@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="My-class.css">
+    <script src="https://kit.fontawesome.com/c06a037a1d.js" crossorigin="anonymous"></script>
+    <title>Courses</title>
+</head>
+<body>
+    <div class="left-section">
+        <div class="head-box">
+            <h1 class="course-title">Full-Stack Web Developer</h1>
+            <div class="social">
+                <i class="fa-solid fa-calendar"></i>
+                <i class="fa-solid fa-bookmark"></i>
+                <i class="fa-solid fa-share-nodes"></i>
+            </div>
+        </div>
+        
+
+
+        <!-- COURSE RATING -->
+        <div class="rating">
+            <span class="rate">5.0 <i class="fa-solid fa-star"></i></span>
+            <span class="review">Review (1k)</span>
+            <span>10k Students</span>
+        </div>
+
+        <div class="video-box">
+            <video src="../images&videos/pexels-diva-plavalaguna-6985525 (2160p).mp4" muted controls poster="./images/video-thumbnail.png" autoplay>
+        </div>
+
+
+        <!-- TAB - BOTTOM MENU STARTS HERE -->
+        <div class="menu">
+            <ul>
+                <li><a id="tab1" href="javascript:void(0);">About</a></li>
+                <li><a id="tab2" href="javascript:void(0);">Reviews</a></li>
+                <li><a id="tab3" href="javascript:void(0);">Discussion</a></li>
+            </ul>
+
+
+                <!-- TAB CONTENT -->
+
+            <div class="tab-content"></div>
+            
+        </div>
+        
+    </div>
+
+<!-- RIGHT SECTION START -->
+
+    <div class="right-section">
+        <div class="side-box">
+            <div class="p-line">
+                <h2>Progress</h2>
+                <i class="fa-solid fa-ellipsis"></i>
+            </div>
+            <div class="p-container">
+                <span class="p-level"></span>
+            </div>
+            <div class="p-line">
+                <p><strong>Full-Stack Web Developer</strong></p>
+                <span><strong>10/110</strong></span>
+            </div>
+        </div>
+
+        <div class="side-box video-courses">
+            <div class="p-line">
+                <h2>Video Courses</h2>
+                <span>
+                    <strong>(1/110)</strong> 
+                    <i onclick="displayCourseContent();" class="fa-solid fa-angle-up drop-courses"></i>
+                </span>
+            </div>
+
+            <div class="main-courses">
+                <div class="course active-course">
+                    <span>
+                        <i class="fa-solid fa-play"></i>
+                        <span class="course-chapter">
+                            Introduction
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Getting started
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Tools
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Install Tools
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Plugin
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Plugin
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Plugin
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Plugin
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+
+                <div class="course">
+                    <span>
+                        <i class="fa-solid fa-lock"></i>
+                        <span class="course-chapter">
+                            Plugin
+                        </span> 
+                    </span>
+                    <span class="course-time">1:00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="side-box audio">
+            <div class="p-line show-details">
+                <h2>Audio</h2>
+                <span><strong>(1/25)</strong> <i onclick="displayAudioContent();" class="fa-solid fa-angle-down drop-audio"></i></span>
+            </div>
+        </div>
+
+        <div class="side-box module">
+            <div class="p-line show-details">
+                <h2>Video</h2>
+                <span><strong>(1/50)</strong> <i onclick="displayVideoContent();" class="fa-solid fa-angle-down drop-video"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="My-class.js"></script>
+</body>
+</html>

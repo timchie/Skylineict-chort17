@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.main-container{
+    background-color: rgb(234, 213, 248);
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding: 0 15px;
+    flex: 1;
+
+
+}
+
+.container-main1{
+
+    background-color:#fff;
+    width: 70%;
+    
+
+}
+
+.container-main2{
+    background-color: whitesmoke;
+    width: 30%;
+    margin: 3px 0px ;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.container-main2 h3{
+    padding-bottom: 10px;
+
+}
+
+.content1{
+    background-color: whitesmoke;
+    height: 50px;
+    text-align: center;
+    word-spacing: 40px;
+    padding-top: 15px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+}
+
+ul li a{
+    
+    text-decoration: none;
+}
+
+.content{
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 15px;
+    /* height: 50vh; */
+
+}
+
+.div{
+   
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.image{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.image img{
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+}
+
+.web p:nth-child(1){
+    font-size: 20px;
+}
+
+.web, .okonkwo{
+    line-height: 25px;
+}
+
+button{
+    padding: 7px 15px;
+    border-radius: 5px;
+    background-color: #bd2be2;
+    border-style: none;
+}
+
+.web2{
+    word-spacing: 20px;
+}
+
+.web2 a{
+   font-size: 20px;
+}
+
+.click{
+    color: yellow;
+}
+
+.content-semi{
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-semi{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-semi2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.semi-main1{
+    display: flex;
+    gap: 5px;
+   align-items: center;
+}
+.image-p{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.p1{
+    /* border: 5px solid black;
+    border-radius: 2.5px; */
+    background-color: lightskyblue;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+}
+
+.image-p img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
