@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Open+Sans&family=Roboto+Slab&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+background-image: url(/Good\ photo.jpg);
+background-color: brown;
+
+
+}
+.container{
+    text-align: center;
+    background-color: white; 
+    margin-left: 25%;
+    margin-right: 20%;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 85vh;
+    height: 80vh;
+    padding: 30px;
+    border-radius: 10px;
+    background-image: url(/);
+
+}
+
+
+.image-for{
+padding: 20%;
+
+}
+
+.flow{
+    color: navy;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 0%;
+    
+    }
+
+.flood{
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 70%;
+    margin-left: 90px;
+    margin-top: 1px;  
+    color: blue;
+    }
+
+.complete{
+padding: 8px;
+margin: 5px;
+background-color: blue;
+margin-right: 20%;
+margin-left: 35%;
+color: white;
+width: 25%;
+border-radius: 10px;
+margin-top: 30px; 
+
+}
+
+.End{
+    color: navy;
+}
+
+.divider{
+padding: 10px;
+padding: 30px;
+
+}
+
+.image{
+    padding: 5px;  
+}
+
+a{
+    color: blue;
+}
+input{
+    padding-right: 10px;
+    padding: 5px;
+    margin-right: 60%;
+    margin-top: 5px;
+    border: none;
+    border-top: none;
+    color: blue; 
+    margin-left: 0px;
+}
+
+.flood-two{
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: 20px;
+    width: 70%;
+    margin-left: 90px;
+    margin-bottom: 10px; 
+    color: blue;
+}
+
+.flood-three{
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: 10px;
+    width: 70%;
+    margin-left: 90px;
+    margin-bottom: 10px; 
+    color: blue;
+
+}
+
+label{
+    margin-right: 90%;
+    margin-bottom: 10%;
+    color: blue;
+    margin-left: 0px;
+    
+}
+
+.Gender{
+position: absolute;
+margin-left: 90px;
+margin-top: 10px;
+border: 1px solid;
+width: 10%;
+border-left: none;
+border-right: none;
+border-top: none;
+color: blue;
+
+}
+
+.Age{
+    margin-left: 60%;
+    margin-top: 20px;
+    border: 1px solid;
+    border-top: 20px;
+    border-left: 10px;
+    border-right: 10px;
+    color: blue;
+    margin-right: 80px;
+    
+  
+}
+
+
+
+
+
