@@ -1,0 +1,174 @@
+/* *{
+    background-image: url(/images/7df2e21900385.56010e95d966a.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+*{
+    font-family: 'Times New Roman', Times, serif;}
+
+/* my header-title begins here */
+.header-title{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: center;
+}
+
+.s{
+    font-weight: bold;
+}
+
+
+.content-list1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.content-list2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.content-list3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+    padding: 10px;
+}
+
+.content-list4{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+    padding: 10px;
+}
+
+.content-list5{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -40px;
+    padding: 10px;
+}
+
+.content-list6{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -36px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* my content-list ends here */
+
+/* my table page starts here */
+
+table{
+    margin-top: 20px;
+    margin: auto;
+    width: 95%;
+    font-size: 17px;
+
+}
+
+
+.pp{
+    margin-right: 95px;
+    margin-top: -5px;
+    height: 1px;
+   background-color: black;
+    
+   
+}
+
+
+table, th, td{
+   border: 1px lightgray;
+   padding: 20px 15px;
+   border-collapse: collapse;
+}
+
+
+td{
+    text-align: center;
+  
+}
+
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+
+/* here is my total design */
+
+.total{
+    display: flex;
+   
+    align-items: center;
+    margin-left: 72%;
+    gap: 180px; 
+}
+
+.t1{
+    font-weight: bold;
+
+}
+
+.t2{
+    font-weight: bold;
+    
+}
+
+/* here is my mobile responsiveness */
+
+@media (min-width: 400px) and (max-width: 909px){
+    table{
+        margin-top: 20px;
+        margin: auto;
+        width: 95%;
+        font-size: 16px;
+    
+    }
+    .pp{
+        margin-right: 10px;
+       position: absolute;
+       right: 100%;
+    }
+
+    table, th, td{
+        padding: 5px 18px;
+ 
+     }
+     .total{
+        display: flex;
+        align-items: center;
+        margin-left: 67%;
+        gap: 45px; 
+    }
+    
+    th{
+        background-color: rgb(96, 176, 255);
+        font-style: italic;
+        font-size: 15px;
+    }
+
+    tr:nth-child(even){
+        background-color: lightgrey;
+    }
+
+    .content-list{
+        font-size: 16px;
+        text-align: center;
+        font-style: italic;
+    }
+
+    .header-title{
+       text-align: center;
+       font-style: italic;
+       font-weight: bolder;
+    }
+}
