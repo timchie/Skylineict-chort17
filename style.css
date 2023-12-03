@@ -359,6 +359,7 @@ it includes profile, search bar, and welcome note */
 }
 
 /* my course and upcoming course here */
+
 .course-container{
     background-color:rgb(210, 241, 241);
     margin-top: 10px;
@@ -369,7 +370,9 @@ it includes profile, search bar, and welcome note */
     padding: 5px 20px;
     border-radius: 10px;
     height: 300px;
+    transition: all 0.5s ease-in-out;
     box-shadow: 5px 8px 10px 10px black;
+    
 }
 .image-u img{
     width: 80px;
@@ -419,6 +422,20 @@ it includes profile, search bar, and welcome note */
     justify-content: space-between;
     border-radius: 10px;
 }
+
+.my-course :nth-child(1):hover{
+    transform: translate(-5px);
+}
+
+.my-course :nth-child(3):hover{
+    transform: translate(-5px);
+}
+
+.my-course :nth-child(2):hover{
+    transform: translate(-5px);
+    /* background-color: #21e25b; */
+}
+
 
 .begin{
     display: flex;
@@ -472,6 +489,11 @@ it includes profile, search bar, and welcome note */
     border-radius: 10px;
 }
 
+.course-container .courseflex .my-course .course-card .btn-n:hover{
+    background-color: brown;
+    transition: all 0.5s;
+}
+
 
 .course-container .courseflex .my-course .course-card .btn-n a{
     color: #fff;
@@ -482,6 +504,7 @@ it includes profile, search bar, and welcome note */
 .upcoming-course{
     flex: 1;
     background-color:lightcyan;
+    cursor: pointer;
     
 }
 .upcoming-course .upcoming{
@@ -568,6 +591,9 @@ it includes profile, search bar, and welcome note */
     margin-left: 10px;
 }
 
+.upcoming:hover{
+    transition: all 0.5s ease-in-out;
+}
 
 
 
