@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CSS FOR WEBKIT SCROLL BAR */
+
+html::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+html::-webkit-scrollbar-track {
+    background: rgb(214, 214, 214)
+  }
+   
+
+html::-webkit-scrollbar-thumb {
+    /* background-color: rgb(134, 134, 134); */
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+html::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(54, 54, 54); 
+  }
+
+
+  /* WEBKIT SCROLL ENDS */
+
+
+body {
+    display: flex;
+    column-gap: 10px;
+    background-color: rgb(241, 234, 234);
+    padding: 0 7vw;
+    
+}
+
+.left-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-section {
+    flex: 1;
+    max-width: 350px;
+}
+
+
+.head-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+/* PAGE TITLE */
+.course-title {
+    color: rgb(48, 48, 48);
+    white-space: nowrap;
+    margin: 10px 0;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    column-gap: 20px;
+    color: grey;
+    margin-right: 35px;
+}
+
+.social i:hover {
+    color: #7af3ae;
+    cursor: pointer;
+}
+
+
+
+
+/* COURSE RATING */
+.rating {
+    display: flex;
+    column-gap: 15px;
+    font-size: 14px;
+}
+
+.rating i {
+    color: orange;
+    font-size: 14px;
+}
+
+.rating span:nth-child(1) {
+    /* color: grey; */
+    border-right: 1px solid rgb(175, 175, 175);
+    padding-right: 15px;
+    white-space: nowrap;
+}
+
+.rating span:nth-child(2) {
+    color: grey;
+    border-right: 1px solid rgb(175, 175, 175);
+    padding-right: 15px;
+    white-space: nowrap;
+}
+
+.rating span:nth-child(3) {
+    color: grey;
+    white-space: nowrap;
+    
+}
+
+
+/* VIDEO-BOX STYLING STARTS HERE */
+.video-box {
+    width: 95%;
+    margin: 20px 0;
+}
+
+
+
+.video-box video {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+/* BOTTOM MENU CSS DESIGN */
+
+.menu ul {
+    display: flex;
+    column-gap: 20px;
+    border-bottom: 2px solid grey;
+    width: max-content;
+    padding-bottom: 10px;
+}
+
+.menu ul li {
+    list-style: none;
+    
+    
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: grey;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+
+.menu ul li:hover {
+    cursor: pointer;
+}
+
+
+.menu ul li:hover a {
+    color: #7af3ae;
+}
+
+/* .menu::after {
+    content: "Good";
+    display: block;
+    border-top: 1px solid grey;
+} */
+
+
+
+/* CSS FOR TAB CONTENT */
+
+
+.tab-content {
+    width: 95%
+}
+.tab-content h2 {
+    margin: 10px 0;
+    color: rgb(48, 48, 48);
+    font-size: 18px;
+}
+
+.tab-content p {
+    line-height: 20px;
+    color: grey;
+    font-size: 14px;
+}
+
+/* RIGHT SECTION */
+
+/* .right-section {
+    background-color: #f5f1f1;
+    padding: 30px 20px;
+} */
+
+.side-box {
+    background-color: #ffffff;
+    padding: 15px 20px 10px 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 100%;
+    max-height: 320px;
+    overflow-y: auto;
+    /* transition: max-height ease-in-out 0.5s; */
+    
+}
+
+.details {
+    height: 105px;
+    overflow-y: hidden;
+    
+}
+
+
+
+/* CSS FOR WEBKIT SCROLL BAR */
+
+.side-box::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+.side-box::-webkit-scrollbar-track {
+    background: rgb(214, 214, 214)
+  }
+   
+
+.side-box::-webkit-scrollbar-thumb {
+    background-color: rgb(134, 134, 134);
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+.side-box:hover::-webkit-scrollbar-thumb {
+    background-color: #7af3ae; 
+  }
+
+
+  /* WEBKIT SCROLL ENDS */
+
+.p-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    align-items: baseline;
+}
+
+.p-line i {
+    font-size: 18px;
+    color: grey;
+}
+
+
+.p-line:last-child p{
+    color: gray;
+    font-size: 14px;
+}
+
+.p-line:last-child span {
+    font-size: 14px;
+    color: grey;
+}
+/* Progress css */
+.p-container {
+    position: relative;
+    height: 15px;
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    border-radius: 3px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.p-container .p-level {
+    position: absolute;
+    height: 15px;
+    width: 20%;
+    background-color: #7af3ae;
+    border-radius: 3px;
+    margin: auto;
+}
+
+.video-courses i,
+.show-details i {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #7af3ae;
+    color: white;
+    font-size: 10px;
+}
+
+.video-courses i:hover,
+.show-details i:hover {
+    cursor: pointer;
+} 
+
+/* VIDEO COURSES CONTAINER CSS */
+.course {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 10px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px;
+    line-height: 18px;
+    margin-bottom: 10px;
+}
+
+.course:hover {
+    cursor: pointer;
+}
+
+.course i {
+    padding: 5px 6px;
+    background-color: white;
+    color: rgb(14, 14, 14);
+    margin-right: 20px
+}
+
+.course .course-chapter,
+.course .course-time {
+    color: rgb(48, 43, 43);
+}
+
+/* CSS FOR HIGHLIGHTED OR ACTIVE COURSE */
+
+.active-course {
+    background-color: #7af3ae;
+}
+
+
+.active-course i {
+    color: #7af3ae;
+}
+
+.active-course .course-chapter,
+.active-course .course-time{
+    color: white;
+}
+
+
+
+/* the below will be added by javascript */
+.active-menu {
+    color: #7af3ae !important;
+    border-bottom: 2px solid #7af3ae;
+}
+
+
+
+
+/* RESPONSIVENESS */
+
+
+@media (max-width: 1000px){
+
+    body {
+        flex-direction: column;
+        padding: 10px 30px;
+    }
+
+    .course-title {
+        font-size: 27px;
+    }
+
+    .social {
+        column-gap: 15px;
+        margin-right: 0;
+    }
+
+    .video-box {
+        width: 100%;
+    }
+
+    .right-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .right-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        max-width: 100%;
+        column-gap: 15px;
+    }
+
+    .side-box {
+        
+        max-height: 105px;
+    }
+
+    
+}
+
+
+@media (max-width: 700px){
+
+    body {
+        padding: 10px 20px;
+    }
+
+    .course-title {
+        font-size: 23px;
+    }
+    
+    .social {
+        column-gap: 10px;
+    }
+
+    .social i {
+        font-size: 13px;
+    }
+
+    .video-box {
+        width: 100%;
+    }
+
+    .right-section {
+        
+        grid-template-columns: 1fr;
+    }
+
+    .side-box {
+        max-height: 320px;
+    }
+}
