@@ -48,13 +48,19 @@ margin-top: 20px;
     }
 
     .circleimage{
+        position: absolute;
 
     }
 
-    .circleimage .img{
-      height: 180px;
-      width: 180px;
-      border-radius: 50%;}
+    img{
+       height: 80%;
+      width: 80%;
+      border-radius: 50%;
+      position: relative;
+      
+      
+       
+    }
 
     .square{
 
